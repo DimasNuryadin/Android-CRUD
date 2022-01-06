@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Setting">
+
+    <RelativeLayout
+        android:background="@color/bayangan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginBottom="40dp"
+            android:textSize="29dp"
+            android:gravity="center"
+            android:text="Setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/changePass"
+            android:layout_marginBottom="15dp"
+            android:text="Edit Password"
+            android:background="@color/putih"
+            android:textColor="@color/hitam"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/changeEmail"
+            android:layout_marginBottom="15dp"
+            android:text="Edit Email"
+            android:background="@color/putih"
+            android:textColor="@color/hitam"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/resetPassword"
+            android:layout_marginBottom="15dp"
+            android:text="Reset Password"
+            android:background="@color/putih"
+            android:textColor="@color/hitam"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/deleteAccount"
+            android:text="Hapus Akun"
+            android:background="@color/putih"
+            android:textColor="@color/hitam"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".BuatBiodata">
+
+    <RelativeLayout
+        android:background="@color/bayangan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+        android:id="@+id/tx"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:layout_marginTop="20dp"
+        android:text="Tambah Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tx"
+        android:textColor="@color/putih"
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1">
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/tx"
+        android:textColor="@color/putih"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="No"/>
+
+    <TextView
+        android:textColor="@color/putih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="10dp"
+        android:text="Nama"/>
+
+    <EditText
+        android:textColor="@color/putih"
+        android:id="@+id/editText2"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:text="Warna"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColor="@color/putih"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView4"
+        android:text="Kekuatan"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColor="@color/putih"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@id/editText4"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:text="Tambah" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/button1"
+            android:text="Kembali"
+            android:textColor="@color/putih"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

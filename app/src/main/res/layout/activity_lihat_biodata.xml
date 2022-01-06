@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LihatBiodata">
+
+    <RelativeLayout
+        android:background="@color/bayangan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"
+        android:text="Lihat Biodata"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textColor="@color/putih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="80dp"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView2"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/putih" />
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView4"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView01"
+        android:layout_marginLeft="80dp"
+        android:layout_alignBaseline="@+id/textView1"
+        android:text="No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView02"
+        android:layout_alignLeft="@+id/textView01"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView01"
+        android:text="Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView03"
+        android:layout_alignLeft="@+id/textView02"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView02"
+        android:text="Warna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/putih"
+        android:id="@+id/textView04"
+        android:layout_alignLeft="@+id/textView03"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView03"
+        android:text="Kekuatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textColor="@color/hitam"
+        android:id="@+id/button1"
+        android:background="@color/putih"
+        android:text="Kembali"
+        android:layout_alignLeft="@+id/textView04"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/textView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

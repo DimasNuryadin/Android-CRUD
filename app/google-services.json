@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "699813905557",
+    "firebase_url": "https://tugas7superhero.firebaseio.com",
+    "project_id": "tugas7superhero",
+    "storage_bucket": "tugas7superhero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699813905557:android:4f16340057759d01b9479c",
+        "android_client_info": {
+          "package_name": "com.example.superhero_dimasnuryadin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699813905557-b54b8649r6ruuovoj54f1begspc15v71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.superhero_dimasnuryadin",
+            "certificate_hash": "f80b7735e984e68f52fee853de348e9522c5677e"
+          }
+        },
+        {
+          "client_id": "699813905557-upcf16g3gn629j6401oe4lmqibrfv6q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGzkx7ZSQVKcOCf3xAFmswxxiyv0u1n34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699813905557-upcf16g3gn629j6401oe4lmqibrfv6q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

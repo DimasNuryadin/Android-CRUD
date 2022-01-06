@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="bayangan">#51000000</color>
+    <color name="hitam">#000000</color>
+    <color name="bg">#222425</color>
+    <color name="orange">#FF6D00</color>
+    <color name="click">#00DDFF</color>
+
+
+</resources>
